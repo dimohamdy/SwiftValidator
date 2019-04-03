@@ -21,7 +21,7 @@ extension UITextField: Validatable {
     
     open var validationText: String {
         if let text = text {
-            ctext.trim()
+            return text.trim()
         }
         return ""
     }
