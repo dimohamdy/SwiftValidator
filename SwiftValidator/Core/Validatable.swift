@@ -20,14 +20,21 @@ public protocol Validatable {
 extension UITextField: Validatable {
     
     open var validationText: String {
-        return text ?? ""
+        if let text = text {
+            text.trim()
+        }
+        return ""
     }
 }
 
 extension UITextView: Validatable {
     
     public var validationText: String {
-        return text ?? ""
+        
+        if let text = text {
+            text.trim()
+        }
+        return ""
     }
 }
 

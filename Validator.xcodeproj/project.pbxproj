@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D41804122550C80000A79E3 /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D41804022550C80000A79E3 /* String+Extention.swift */; };
 		62C1821D1C6312F5003788E7 /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C1821C1C6312F5003788E7 /* ExactLengthRule.swift */; };
 		62D1AE1D1A1E6D4400E4DFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D1AE1C1A1E6D4400E4DFF8 /* AppDelegate.swift */; };
 		62D1AE221A1E6D4400E4DFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D1AE201A1E6D4400E4DFF8 /* Main.storyboard */; };
@@ -92,6 +93,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D41804022550C80000A79E3 /* String+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
 		62C1821C1C6312F5003788E7 /* ExactLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExactLengthRule.swift; sourceTree = "<group>"; };
 		62D1AE171A1E6D4400E4DFF8 /* Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Validator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D1AE1B1A1E6D4400E4DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,6 +172,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D41803F22550C80000A79E3 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				3D41804022550C80000A79E3 /* String+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
 		62D1AE0E1A1E6D4400E4DFF8 = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +242,7 @@
 		FB465CB41B9884F400398388 /* SwiftValidator */ = {
 			isa = PBXGroup;
 			children = (
+				3D41803F22550C80000A79E3 /* Extention */,
 				FB465CE21B9889EA00398388 /* Rules */,
 				FB465CF01B9889EA00398388 /* Core */,
 				FB465CB71B9884F400398388 /* SwiftValidator.h */,
@@ -506,6 +517,7 @@
 				FBA963631CDA10130071F03E /* ValidatorDictionary.swift in Sources */,
 				FB465CFF1B9889EA00398388 /* ZipCodeRule.swift in Sources */,
 				FB465CF91B9889EA00398388 /* PasswordRule.swift in Sources */,
+				3D41804122550C80000A79E3 /* String+Extention.swift in Sources */,
 				7CC1E4D11C637A7700AF013C /* AlphaNumericRule.swift in Sources */,
 				7CC1E4D31C637ABC00AF013C /* CharacterSetRule.swift in Sources */,
 				FB465CFD1B9889EA00398388 /* Rule.swift in Sources */,
